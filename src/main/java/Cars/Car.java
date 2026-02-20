@@ -18,12 +18,7 @@ public abstract class Car {
     public String getModel() { return model; }
     public int getMileage() { return mileage; }
 
-
-    public void setVinNumber(String vinNumber) {
-        this.vinNumber = vinNumber;
-    }
-
-    public void setMaker(String make) {
+    public void setMake(String make) {
         this.make = make;
     }
 
