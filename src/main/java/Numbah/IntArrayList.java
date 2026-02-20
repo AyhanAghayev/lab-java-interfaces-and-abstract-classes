@@ -14,7 +14,7 @@ public class IntArrayList implements IntList{
             int newLength = numbers.length + numbers.length / 2;
             int[] newArray = new int[newLength];
 
-            for (int i = 0; i <= size; i++) {
+            for (int i = 0; i < size; i++) {
                 newArray[i] = numbers[i];
             }
             numbers = newArray;
