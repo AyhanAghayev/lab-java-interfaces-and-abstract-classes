@@ -14,6 +14,7 @@ public class Truck extends Car {
         if (towingCapacity < 0.0) {
             throw new IllegalArgumentException("Towing capacity can't be below zero.");
         }
+        this.towingCapacity = towingCapacity;
     }
 
     @Override
